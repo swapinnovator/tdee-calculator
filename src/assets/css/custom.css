@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    transition: .4s all ease;
+    text-decoration: none;
+    outline: none;
+}
+input{
+    outline: none;
+}
+img {
+    max-width: 100%;
+}
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.headerMain {
+    padding: 22px 0;
+}
+.headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoCol .logo {
+    max-width: 230px;
+}
+
+.headerMain {
+    padding: 11px 0;
+    box-shadow: 0px 1px 12px 0px #0000000f;
+    margin-bottom: 60px;
+    background: #fafafa;
+}
+
+.calSec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.calSec .calFormSec {
+    padding: 80px 80px 50px 80px;
+    width: 50%;
+    order: 2;
+    background: #fff;
+    box-shadow: -40px 25px 40px 0px rgb(0 0 0 / 6%);
+    margin-top: 90px;
+}
+.calSec .calImg {
+    width: 50%;
+    padding: 0 30px 0 0;
+}
+.calSec .calImg .bmiImgs img{
+    max-width: 220px;
+}
+
+.userSec {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.userSec img {
+    max-width: 100px;
+    border-radius: 100px;
+}
+
+.userSec h2 {
+    font-weight: 600;
+    color: #1a191d;
+    font-size: 30px;
+    margin: 18px 0;
+    letter-spacing: .5px;
+}
+
+.calForm .formGroup label {
+    display: block;
+    font-size: 16px;
+    color: #1a191d;
+    margin-bottom: 4px;
+    font-weight: 600;
+}
+
+.calForm .formGroup {
+    margin-bottom: 32px;
+}
+.calForm .formGroup:last-child {
+    margin-bottom: 0;
+}
+
+.calForm .formGroup input,
+.calForm .formGroup select {
+    border-width: 0 0 1px 0;
+    width: 100%;
+    padding: 2px 0 6px;
+    border-color: #777;
+    color: #1a191d;
+    font-size: 14px;
+    background-color: transparent;
+    outline: none;
+}
+.calForm .formGroup button {
+    background: #1a191d;
+    color: #ffff;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 100%;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+}
+.calBmiSec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    box-shadow: 0 0px 10px 0px #5ed09a38;
+    padding: 9px 18px;
+    margin-top: 35px;
+}
+.calBmiSec .calBmi {
+    display: block;
+    font-size: 16px;
+    color: #1a191d;
+    margin-bottom: 4px;
+    font-weight: 600;
+    padding-right: 8px;
+}
+.calBmiSec .calBmi span, .calBmiSec .bmiType span {
+    font-weight: 400;
+    font-size: 14px;
+}
+.calBmiSec .bmiType {
+    display: block;
+    font-size: 16px;
+    color: #1a191d;
+    margin-bottom: 4px;
+    font-weight: 600;
+    text-transform: capitalize;
+    padding-right: 8px;
+}
+.navCol li a {
+    border: 1px solid #26ae5e;
+    background: #26ae5e;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    box-shadow: 0 4px 7px 0px rgba(222, 222, 222, 1);
+    font-weight: 600;
+}
+.topSec {
+    text-align: center;
+}
+.topSec {
+    text-align: center;
+}
+
+.topSec .topcont {
+    margin: 0 auto;
+    max-width: 720px;
+}
+
+.topSec .topcont h1 {
+    margin: 0 0 10px;
+}
+
+.topSec .topcont p {
+    font-size: 18px;
+    color: #1a191d;
+    margin: 0;
+    max-width: 650px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.topSec .topcont h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.bmiImgs {
+    text-align: center;
+}
+.calMain {
+    position: relative;
+    z-index: 2;
+}
+.featureDiv{
+    position: relative;
+}
+.featureSec{
+    background-image: url(../images/background.png);
+    background-size: cover;
+    padding: 21% 0 60px;
+    background-position: center top;
+    margin-top: -50px;
+    position: relative;
+}
+/* .featureSec::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url(../images/bgPattern.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    top: 18px;
+    z-index: -1;
+} */
+.featurePattern{
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-image: url(../images/bgPattern.png);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    top: 18px;
+    z-index: -1;
+    transform: inherit !important;
+}
+.featureHead h2 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #fff;
+    margin: 0 0 0px;
+    text-transform: capitalize;
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.features .featureCol {
+    width: 48%;
+    display: flex;
+    margin: 25px 0;
+}
+
+.features .featureCol .featureIcon img {
+    max-width: 60px;
+    width: 100%;
+    filter: brightness(0) invert(1);
+}
+
+.featureHead p {
+    color: #aeedc5;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.featureHead {
+    margin: 0 0 50px;
+    text-align: center;
+}
+
+
+.features .featureCol .featureText h3 {
+    margin: 0;
+    font-weight: 500;
+    font-size: 30px;
+    color: #fff;
+}
+
+.featureIcon {
+    margin-right: 45px;
+    width: 100%;
+    max-width: 60px;
+}
+
+.features .featureCol .featureText p {
+    color: #aeedc5;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+.footer {
+    padding: 30px 0;
+    border-top: 2px solid #84BD5A;
+    background-color: #2f2f2f;
+    position: relative;
+    z-index: 1;
+}
+.footer-copyright {
+    color: #ffff;
+    text-align: center;    
+    line-height: 1.5;
+}
+.footer-copyright a {
+    color: #26ae5e;
+    text-decoration: underline;
+}
+
+.footer-copyright a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.radioSelector {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.radioSelector .radioCol {
+    position: relative;
+    padding-left: 20px;
+    margin-right: 20px;
+}
+.radioSelector .radioCol input[type="radio"]{
+    position: absolute;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    z-index: 1;
+}
+.radioSelector .radioCol label {
+    margin: 0;
+}
+.radioSelector .radioCol label::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    height: 8px;
+    width: 8px;
+    border-radius: 70px;
+    background: #ffffff;
+    border: 2px solid #ffffff;
+    box-shadow: 0px 0px 0px 2px #26ad5e;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.radioSelector .radioCol input[type="radio"]:checked + label::before {
+    background: #26ae5e;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1279px) {
+    .topSec .topcont h1 {
+        font-size: 38px;
+    }
+    
+    .calSec .calFormSec {
+        padding: 60px 60px 30px 60px;
+    }
+    
+    .featureSec {
+        padding-top: 24%;
+    }
+    
+    .featureHead h2 {
+        font-size: 40px;
+    }
+    
+    .features .featureCol .featureText h3 {
+        font-size: 24px;
+    }
+    
+    .features .featureCol .featureText p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+    
+    .featureIcon {
+        margin-right: 26px;
+        max-width: 45px;
+    }
+    
+    .features .featureCol .featureIcon img {
+        max-width: 45px;
+    }
+    
+}
+@media (max-width: 767px) {
+    .logoCol .logo {
+        max-width: 170px;
+    }
+    .topSec .topcont h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    
+    .topSec .topcont p {
+        font-size: 16px;
+        line-height: 22px;
+    }
+    
+    
+    .calSec .calFormSec {
+        width: 100%;
+        padding: 20px 15px 20px 15px;
+        order: 1;
+        margin: 0 0 20px 0;
+    }
+    
+    .calSec .calImg {
+        width: 100%;
+        order: 2;
+        padding-right: 0;
+    }
+    
+    .calSec .calImg .bmiImgs img {
+        max-width: inherit;
+        max-height: 280px;
+    }
+    
+    .featureSec {
+        margin: 0;
+        padding: 42% 0 0 0;
+        background-position: center -70px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .featureHead h2 {
+        font-size: 32px;
+    }
+    
+    .featureHead p {
+        font-size: 18px;
+    }
+    
+    .features .featureCol {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .featureHead {
+        margin-bottom: 10px;
+    }
+    
+    .featureIcon {
+        max-width: 38px;
+        margin-right: 15px;
+    }
+    
+    .features .featureCol .featureText h3 {
+        margin-top: -4px;
+    }
+    
+}
