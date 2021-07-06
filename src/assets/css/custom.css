@@ -96,7 +96,9 @@ ul{
     margin-bottom: 4px;
     font-weight: 600;
 }
-
+.calForm .formGroup label span {
+    font-size: 11px;
+}
 .calForm .formGroup {
     margin-bottom: 32px;
 }

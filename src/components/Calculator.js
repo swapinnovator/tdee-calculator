@@ -147,11 +147,11 @@ function Calculator(){
                                       </select>
                                     </div>
                                     <div className="formGroup">
-                                        <label htmlFor="weight">Weight</label>
+                                        <label htmlFor="weight">Weight<span>/kg</span></label>
                                         <input type="number" id="weight" onChange={(e) => {handleWeightChange(e)}} value={weight}/>
                                     </div>
                                     <div className="formGroup">
-                                        <label htmlFor="height">Height</label>
+                                        <label htmlFor="height">Height<span>/cm</span></label>
                                         <input type="number" id="height" onChange={(e) => {handleHeightChange(e)}} value={height}/>
                                     </div>
                                     <div className="formGroup">
