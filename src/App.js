@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "./pages/Home";
+import Home from "pages/Home";
 import 'assets/fonts/stylesheet.css';
 import 'assets/css/custom.css';
 

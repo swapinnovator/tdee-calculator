@@ -38,13 +38,13 @@ ul{
 }
 
 .logoCol .logo {
-    max-width: 230px;
+    max-width: 190px;
 }
 
 .headerMain {
     padding: 11px 0;
     box-shadow: 0px 1px 12px 0px #0000000f;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     background: #fafafa;
 }
 
@@ -56,28 +56,28 @@ ul{
 }
 
 .calSec .calFormSec {
-    padding: 80px 80px 50px 80px;
+    padding: 20px 80px 50px 80px;
     width: 50%;
     order: 2;
     background: #fff;
     box-shadow: -40px 25px 40px 0px rgb(0 0 0 / 6%);
-    margin-top: 90px;
+    margin-top: 0px;
 }
 .calSec .calImg {
     width: 50%;
     padding: 0 30px 0 0;
 }
 .calSec .calImg .bmiImgs img{
-    max-width: 220px;
+    max-height: 635px;
 }
 
 .userSec {
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 25px;
 }
 
 .userSec img {
-    max-width: 100px;
+    max-width: 85px;
     border-radius: 100px;
 }
 
@@ -186,16 +186,16 @@ ul{
 }
 
 .topSec .topcont p {
-    font-size: 18px;
+    font-size: 16px;
     color: #1a191d;
     margin: 0;
-    max-width: 650px;
+    max-width: 540px;
     font-weight: 500;
     display: inline-block;
 }
 
 .topSec .topcont h1 {
-    font-size: 42px;
+    font-size: 40px;
     font-weight: 700;
     letter-spacing: 1px;
     text-transform: capitalize;
@@ -380,7 +380,7 @@ ul{
     }
     
     .calSec .calFormSec {
-        padding: 60px 60px 30px 60px;
+        padding: 20px 60px 30px 60px;
     }
     
     .featureSec {
