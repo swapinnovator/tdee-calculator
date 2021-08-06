@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/tdee-calculator/static/css/main.0fcd6c3e.chunk.css",
+    "main.js": "/tdee-calculator/static/js/main.db8d343c.chunk.js",
+    "main.js.map": "/tdee-calculator/static/js/main.db8d343c.chunk.js.map",
+    "runtime-main.js": "/tdee-calculator/static/js/runtime-main.35d3b8a3.js",
+    "runtime-main.js.map": "/tdee-calculator/static/js/runtime-main.35d3b8a3.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/tdee-calculator/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.180c04fd.chunk.js": "/tdee-calculator/static/js/2.180c04fd.chunk.js",
+    "static/js/2.180c04fd.chunk.js.map": "/tdee-calculator/static/js/2.180c04fd.chunk.js.map",
+    "static/js/3.48d89b9a.chunk.js": "/tdee-calculator/static/js/3.48d89b9a.chunk.js",
+    "static/js/3.48d89b9a.chunk.js.map": "/tdee-calculator/static/js/3.48d89b9a.chunk.js.map",
+    "index.html": "/tdee-calculator/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/tdee-calculator/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.0fcd6c3e.chunk.css.map": "/tdee-calculator/static/css/main.0fcd6c3e.chunk.css.map",
+    "static/js/2.180c04fd.chunk.js.LICENSE.txt": "/tdee-calculator/static/js/2.180c04fd.chunk.js.LICENSE.txt",
+    "static/media/stylesheet.css": "/tdee-calculator/static/media/SegoeUIBlack.d2335c14.woff",
+    "static/media/custom.css": "/tdee-calculator/static/media/bgPattern.dc0f4e1e.png",
+    "static/media/extraObeseWeight.70e77202.svg": "/tdee-calculator/static/media/extraObeseWeight.70e77202.svg",
+    "static/media/heart.956690e1.svg": "/tdee-calculator/static/media/heart.956690e1.svg",
+    "static/media/logo.81db040b.png": "/tdee-calculator/static/media/logo.81db040b.png",
+    "static/media/normalWeight.31b32d25.svg": "/tdee-calculator/static/media/normalWeight.31b32d25.svg",
+    "static/media/obeseWeight.9ed88d0f.svg": "/tdee-calculator/static/media/obeseWeight.9ed88d0f.svg",
+    "static/media/overWeight.e95faffc.svg": "/tdee-calculator/static/media/overWeight.e95faffc.svg",
+    "static/media/underWeight.e5fd8f1b.svg": "/tdee-calculator/static/media/underWeight.e5fd8f1b.svg",
+    "static/media/user.ab7efdc7.png": "/tdee-calculator/static/media/user.ab7efdc7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.35d3b8a3.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.180c04fd.chunk.js",
+    "static/css/main.0fcd6c3e.chunk.css",
+    "static/js/main.db8d343c.chunk.js"
+  ]
+}
